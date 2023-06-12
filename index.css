@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400&display=swap');
+
+
+body{
+  background-color: #e5eff6;
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+  padding-top: 130px;
+}
+
+#counter{
+  font-weight: bold;
+  font-size: 70px;
+  color: rgb(4, 16, 55);
+  margin-bottom: 0px;
+}
+
+#value{
+  font-size: 70px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+button{
+  background-color: #e5eff6;
+  border-radius: 6px;
+  border-width: 2.5px;
+  border: 2.5px solid rgb(4, 16, 55);
+  padding: 2px 15px;
+  font-size: 13px;
+  font-family:  'Nunito', sans-serif;
+  font-weight: 500;
+  margin: 3px;
+  transition: 0.35s;
+}
+
+button:hover{
+  background-color: rgb(4, 16, 55);
+  color: #e5eff6;
+}
